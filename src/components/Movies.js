@@ -4,7 +4,6 @@ import { movies } from "../data";
 function Movies() {
 
   const items = movies.map((item) => (
-    
     <div key={item.title}>
     <h3>{item.title}</h3>
     <p>{item.time}</p>

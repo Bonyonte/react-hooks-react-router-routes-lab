@@ -8,7 +8,7 @@ function Actors() {
       <ul>{actor.movies.map((li) =><li key={li}>{li}</li>)}</ul>
     </div>
   ))
-  return <div>
+  return<div>
     <h1>Actors Page</h1>
     {eachActor}
   </div>;
